@@ -1,0 +1,70 @@
+div{
+    margin:5px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(255, 248, 239);
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.navitems{
+    width: auto;
+}
+
+.top{
+    display: flex;
+    justify-content: space-between;
+}
+
+.middle{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1{
+    font-size: 100px;
+}
+
+h2{
+    font-size:30px ;
+}
+
+button{
+    border: solid;
+    border-width: 4px;
+    border-color: black;
+    background-color: transparent;
+    border-radius:50px;
+    font-size: 35px;
+    font-weight: bold;
+    padding: 15px;
+    padding-left: 75px;
+    padding-right: 75px;
+    cursor: pointer;
+}
+
+.nav1{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.nav2{
+    display: flex;
+    font-size: 14px;
+    font-weight: bold;
+    width: 350px;
+    justify-content: space-between;
+}
+
+.imageContainer{
+    display: flex;
+    justify-content: center;
+}
+
+img{
+    width:100%;
+    height: auto;
+}
